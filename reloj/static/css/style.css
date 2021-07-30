@@ -1,18 +1,36 @@
 
-h1 {
-    border:solid red;
+h4,h2 {
+    text-align: center;
+    margin: 5px 0px;
 }
 
-h2 {
-    border:solid black;
+.titulo{
     text-align: center;
+    border:solid black;
+    width: 300px;
+    margin: 20px auto;
+}
+
+.time{
+    border:solid black;
+    width: 500px;
+    margin: 2px auto;
+    margin-bottom: 10px;
 }
 
 input[type=text] {
-    width: 100%;
+    width: 40%;
     background-color : Black; 
+    padding: 5px;
+    border: 5px;
     color : White; 
     font-family : Verdana, Arial, Helvetica; 
-    font-size : 8pt; 
+    font-size : 12pt; 
+    text-align : center;
+}
+
+#f1 {
+    width: 600px;
+    margin: 20px auto;
     text-align : center;
 }

@@ -13,15 +13,22 @@
 </head>
 
 <body>
-    <h1>Tiempo actual</h1>
-    <h2> {{date}} </h2>
-    <h2> {{time}} </h2>
-    
+    <div class="titulo">
+        <h4>Tiempo actual</h1>
+    </div>
+
+    <div class='time'>
+        <h2> {{date}} </h2>
+        <h2> {{time}} </h2>
+    </div>
+
     <body onload="mueveReloj()">
         
-        <form name="form_reloj">
-            <input type="text" name="reloj" size="20">
-        </form>
+        <div id="f1">
+            <form name="form_reloj">
+                <input type="text" name="reloj" size="20">
+            </form>
+        </div>
     </body>
 
 </html>
